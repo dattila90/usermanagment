@@ -12,6 +12,7 @@
 			    <th>Last name</th>
 			    <th>Email</th>
 			    <th>Phone</th>
+			    <th></th>
 			</tr>
 			<?php foreach ($results as $key => $value) { ?>
 			<tr id="row-<?= $value->id; ?>">
@@ -106,6 +107,12 @@
 								<option id="user">user</option>
   								<option id="admin">admin</option>
 							</select>
+						</div>
+					</div>
+					<div class="form-group">
+						<label for="description", class="col-sm-3 control-label">Description</label>
+						<div class="col-sm-9">
+							<textarea class="form-control" id="description" type="description" name="description" placeholder="Description"></textarea> 
 						</div>
 					</div>
 					<input class="hidden" id="id" type="text" name="id" placeholder="id" value=""><br>

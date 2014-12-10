@@ -89,6 +89,7 @@ $( document ).ready(function() {
 		  					{
 		  						$('#admin').prop('selected', true);	
 		  					}
+		  					$("#description").val(obj[0].description);
 		  					//$("#user_type").val(obj[0].user_type);
 
 		  					//console.log(obj[0].username);
